@@ -1,13 +1,13 @@
-package com.project.videoProjDemo;
+package com.project.Courses;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class VideoProjDemoApplication {
+public class CoursesApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(VideoProjDemoApplication.class, args);
+		SpringApplication.run(CoursesApplication.class, args);
 	}
 
 }
