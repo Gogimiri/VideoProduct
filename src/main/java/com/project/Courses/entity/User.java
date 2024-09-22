@@ -1,6 +1,5 @@
 package com.project.Courses.entity;
 
-import com.project.Courses.Role;
 import jakarta.persistence.*;
 import lombok.Data;
 import org.springframework.security.core.GrantedAuthority;
@@ -20,7 +19,7 @@ public class User implements UserDetails {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String name;
+    private String username;
 
     @Column(name = "email")
     private String email;
@@ -39,7 +38,7 @@ public class User implements UserDetails {
 
     @Override
     public String getUsername() {
-        return "";
+        return username;
     }
 
     @Override

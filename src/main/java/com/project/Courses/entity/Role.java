@@ -1,4 +1,4 @@
-package com.project.Courses;
+package com.project.Courses.entity;
 
 public enum Role {
     ROLE_USER,
